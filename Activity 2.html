@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+</head>
+<body>
+    <h2>Mapping in JavaScript</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        var num=[82,98,64,52,38]
+        document.getElementById("p1").innerHTML=num;
+        function function1(x){
+            return x*5;
+        }
+        var map_array=num.map(function1);
+        document.getElementById("p2").innerHTML="Mapped array is "+map_array
+    </script>
+</body>
+</html>
